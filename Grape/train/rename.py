@@ -1,7 +1,7 @@
 import os
 
-path = 'grape_blight/'
-name = 'grape_bli'
+path = 'grape_black_rot/'
+name = 'grape_rot '
 counter = 1
 for f in os.listdir(path):
     suffix = f.split('.')[-1]
