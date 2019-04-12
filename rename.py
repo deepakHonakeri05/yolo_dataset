@@ -1,7 +1,7 @@
 import os
 
-path = 'potato_healthy/'
-name = 'potato_h_'
+path = 'tomato_target_spot/'
+name = 'target_spot'
 counter = 1
 for f in os.listdir(path):
     suffix = f.split('.')[-1]
@@ -10,3 +10,16 @@ for f in os.listdir(path):
         new = '{}.{}'.format(name+str(counter), 'jpg')
         os.rename(path + f, path + new)
         counter = int(counter) + 1
+
+"""
+tomato_bacterial/
+tomato_curl_virus/
+tomato_eb/
+tomato_healthy/
+tomato_lb/
+tomato_leaf_mold/
+tomato_mosaic_virus/
+tomato_septoria_leaf/
+tomato_spider_mite/
+tomato_target_spot/
+"""
