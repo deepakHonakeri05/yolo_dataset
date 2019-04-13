@@ -1,7 +1,7 @@
 import os
 
-path = 'tomato_target_spot/'
-name = 'target_spot'
+path = 'cherry_sour_powdery_mildew/'
+name = 'cherry_PM'
 counter = 1
 for f in os.listdir(path):
     suffix = f.split('.')[-1]
