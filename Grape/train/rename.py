@@ -1,7 +1,7 @@
 import os
 
-path = 'potato_healthy/'
-name = 'potato_healthy'
+path = 'grape_healthy/'
+name = 'grape_healthy'
 counter = 1
 for f in os.listdir(path):
     suffix = f.split('.')[-1]
